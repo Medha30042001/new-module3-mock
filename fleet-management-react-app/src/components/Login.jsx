@@ -37,7 +37,7 @@ const Login = () => {
   return (
     <>
         <h1>Login Here</h1>
-        <form action="">
+        <form action="" className='login'>
             <input type="email"
             placeholder='Enter Email'
             value={email}

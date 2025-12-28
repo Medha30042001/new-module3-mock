@@ -13,11 +13,13 @@ const Sidebar = ({onAddFleet}) => {
             id:Date.now(), 
             regNo, category, driver, avail
         }])
+        console.log("Fleet added");
     }
 
   return (
     <>
-        <form action="">
+    <h1>Fill details here</h1>
+        <form action="" className='sidebar'>
             <input type="text"
             placeholder='Enter Reg No.'
             value={regNo}
